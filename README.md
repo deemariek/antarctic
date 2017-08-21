@@ -8,7 +8,7 @@ There occasionally were issues with the download and processing of this data, so
 
 This data process is the underlying data behind the WFS feed of NIC iceberg data on http://www.polarview.aq/antarctic
 
-# downloadCCORE_results.py
+# downloadCORE_results.py
 This script checks data made available from the CORE ftp site, and downloads any newly available data. Occasionally an empty csv file  was made available on the ftp site so an additional check is carried out to ensure the directory cotntains valid files. The script writes the data contents to a postgis table, upon which sits a WFS service hosted in GeoServer. 
 
 # imOGC.py
